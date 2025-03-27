@@ -1,8 +1,10 @@
-import { Usuario } from "@prisma/client"
+
+import { Usuario } from '@/core/model/Usuario'
 import Image from 'next/image'
 
 export interface LinhaUsuarioProps {
     usuario: Usuario
+    onClick?: (usuario: Usuario) => void
 }
 export default function LinhaUsuario(props: LinhaUsuarioProps) {
     return (

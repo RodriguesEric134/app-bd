@@ -1,4 +1,5 @@
-import { Usuario } from "@prisma/client"
+import { Usuario } from "@/core/model/Usuario"
+
 
 const usuarios: Usuario[] =[
     {
